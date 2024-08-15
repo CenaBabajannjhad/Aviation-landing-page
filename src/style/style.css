@@ -1,4 +1,18 @@
-* *::after *::before {
+/* root variables */
+:root{
+  --white : #fff;
+  --black : #000;
+  --gray : rgb(44, 44, 44);
+  --light-gray : rgb(68,68,68);
+  --blue : rgb(12, 140, 233);
+  --blue-gray : rgb(57, 67, 96);
+  --light-blue : rgb(124, 196, 248);
+  --green : rgb(25, 143, 81); 
+}
+/* reset styles */
+*,
+*::after,
+*::before {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -42,23 +56,6 @@
   font-family: "Montserrat-SemiBold";
   src: url(../../assets/font/Montserrat-SemiBold.ttf);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 1536px) {
   .container {
