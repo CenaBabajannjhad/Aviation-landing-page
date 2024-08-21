@@ -58,39 +58,10 @@
   font-family: "Montserrat-SemiBold";
   src: url(../../assets/font/Montserrat-SemiBold.ttf);
 }
-
-@media screen and (max-width: 1536px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-@media screen and (max-width: 1280px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .container {
-    max-width: 768px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .container {
-    max-width: 640px;
-  }
-}
-@media screen and (max-width: 640px) {
-  .container {
-    max-width: 475px;
-  }
-}
-@media screen and (max-width: 475px) {
-  .container {
-    max-width: 100%;
-  }
-}
+/* our features styles => mary */
 .boxes {
   display: flex;
+  justify-content: center;
   gap: 1.5rem;
 }
 .title {
@@ -159,4 +130,38 @@
 }
 .box-margin {
   margin-top: 1rem;
+}
+
+
+
+
+@media screen and (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+}
+@media screen and (max-width: 475px) {
+  .container {
+    max-width: 100%;
+  }
 }
