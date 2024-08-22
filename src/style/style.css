@@ -58,6 +58,83 @@
   font-family: "Montserrat-SemiBold";
   src: url(../../assets/font/Montserrat-SemiBold.ttf);
 }
+/*header area styles shayan => */
+header {
+  height: 950px;
+  width: 100%;
+}
+header > img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+}
+header .top-header .logo {
+  width: 165px;
+  height: 35px;
+}
+header .top-header .logo img {
+  width: 100%;
+}
+header .top-header nav {
+  color: white;
+  display: flex;
+  width: 680px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+}
+header .top-header nav span {
+  padding-bottom: 5px;
+  border-bottom: 3px solid transparent;
+}
+
+header .top-header nav span:hover {
+  color: var(--blue);
+  border-bottom: 3px solid var(--blue);
+}
+header .top-header nav span:last-child {
+  border: 1px solid var(--white);
+  width: 120px;
+  height: 40px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .top-header nav span:last-child:hover {
+  border: 1px solid var(--blue);
+}
+
+header .container > img {
+  width: 100%;
+  margin-top: 60px;
+}
+header .main-header {
+  text-align: center;
+  color: white;
+}
+header .main-header > h1 {
+  font-family: "Montserrat-ExtraBold";
+  font-size: 48px;
+}
+header .main-header p {
+  font-family: "Montserrat-Medium";
+  font-size: 10px;
+}
 /* our features styles => mary */
 .boxes {
   display: flex;
