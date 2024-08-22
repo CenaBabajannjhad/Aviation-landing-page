@@ -133,6 +133,42 @@
   margin-top: 1rem;
 }
 
+/* make-memories-with-us-section => mary */
+.images-box {
+  display: flex;
+  justify-content: space-between;
+}
+.box-margin1 {
+  margin-top: 1.8rem;
+}
+.back-image {
+  position: absolute;
+
+  width: 15rem;
+  height: 22rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  border-top-left-radius: 10rem;
+  border-top-right-radius: 10rem;
+  border-bottom-left-radius: 10rem;
+  border-bottom-right-radius: 10rem;
+}
+.image {
+  /* background-image: url("../../assets/png/Rectangle\ 38.png"); */
+  height: 21rem;
+  width: 14rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+  position: relative;
+  top: 4px;
+  left: 4px;
+  border-top-left-radius: 10rem;
+  border-top-right-radius: 10rem;
+  border-bottom-left-radius: 10rem;
+  border-bottom-right-radius: 10rem;
+}
 /* -------------SHIVA ------------------ Let's Fly */
 
 .Lets-fly-section {
@@ -219,8 +255,8 @@
   box-shadow: 0 4px 12px var(--blue-buttons);
   margin-top: 3rem;
 }
-
 /* ------------ end Let's Fly ---------- */
+
 
 @media screen and (max-width: 1536px) {
   .container {
