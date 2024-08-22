@@ -10,6 +10,7 @@
   --green: rgb(25, 143, 81);
   --dark-blue: rgb(0, 0, 82);
   --blue-white: rgb(197, 203, 211);
+  --blue-buttons: #313ef7;
 }
 /* reset styles */
 *,
@@ -245,6 +246,94 @@ header .main-header p {
   border-bottom-left-radius: 10rem;
   border-bottom-right-radius: 10rem;
 }
+/* -------------SHIVA ------------------ Let's Fly */
+
+.Lets-fly-section {
+  margin-top: 5rem;
+}
+.Lets-fly-section {
+  width: 100%;
+  display: flex;
+  font-family: Montserrat-Bold;
+}
+.Lets-fly-galley {
+  width: 50%;
+  position: relative;
+}
+
+.icons-clouds {
+  position: absolute;
+  top: 0;
+  right: 12.5rem;
+}
+
+.icons-letsfly {
+  background-color: var(--white);
+  padding: 0.2rem 1.5rem;
+  display: flex;
+  position: absolute;
+  gap: 0.5rem;
+  border-radius: 2rem;
+}
+
+.Lets-fly-location {
+  bottom: 3rem;
+  left: 3rem;
+}
+.text-icon-letsfly {
+  align-self: center;
+}
+
+.Lets-fly-star {
+  right: 6rem;
+  top: 8rem;
+  padding-left: 0;
+}
+
+.Lets-fly-text {
+  width: 50%;
+}
+
+.Lets-fly-title {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.Lets-fly-title p {
+  color: var(--blue-buttons);
+}
+
+.Lets-fly-title span {
+  color: #9694947f;
+}
+
+.Lets-fly-description h2 {
+  margin-bottom: 2rem;
+}
+
+.Lets-fly-ul {
+  list-style-type: circle;
+}
+
+.Lets-fly-li {
+  margin-bottom: 1rem;
+  font-family: Montserrat-Medium;
+}
+
+.Lets-fly-button a {
+  color: var(--white);
+  background-color: var(--blue-buttons);
+  padding: 1rem;
+  width: 12rem;
+  display: inline-block;
+  text-align: center;
+  border-radius: 2rem;
+  box-shadow: 0 4px 12px var(--blue-buttons);
+  margin-top: 3rem;
+}
+/* ------------ end Let's Fly ---------- */
+
 
 @media screen and (max-width: 1536px) {
   .container {
