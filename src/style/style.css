@@ -219,19 +219,26 @@ header .main-header p {
 }
 .book-ticket-left {
   width: 25%;
-  color: var(--white);
   margin-top: 5rem;
 }
 .book-ticket-left-title {
   font-family: "Montserrat-Bold";
   font-size: 2.5rem;
+  text-align: left;
   margin-bottom: 1.2rem;
+  color: var(--white);
 }
 .book-ticket-img {
   width: 70%;
 }
 .book-ticket-left-description {
   color: var(--blue-white);
+}
+.book-ticket-right {
+  width: 30%;
+  /* background-color: #ffc107; */
+  display: flex;
+  justify-content: center;
 }
 
 /* -------------NEGIN ------------------ best-travelars*/
