@@ -22,6 +22,9 @@
   text-decoration: none;
   list-style-type: none;
 }
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
 /* utilities */
 .container {
   max-width: 1536px;
@@ -242,7 +245,10 @@ header .main-header p {
 }
 
 /* -------------NEGIN ------------------ best-travelars*/
-
+.best-travelars-section{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
 .b-travel {
   display: flex;
   justify-content: center;
@@ -317,6 +323,7 @@ h2 {
 .our-customer-feedback-section {
   text-align: center;
   padding: 20px;
+  margin-bottom: 5rem;
 }
 
 .our-customer-feedback-section > p {
@@ -451,6 +458,7 @@ h2 {
 
 .Lets-fly-section {
   margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 .Lets-fly-section {
   width: 100%;
@@ -538,7 +546,7 @@ h2 {
 /* ------------ end Let's Fly ---------- */
 /* ------ subscribe---------- */
 .subscribe-section {
-  /* background-color: rgba(238, 213, 241, 0.671); */
+  background-color: rgba(238, 213, 241, 0.671);
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -582,9 +590,11 @@ h2 {
 }
 
 /* -- footer---shiva -- */
-.footer .container {
+.footer-container {
   /* background-color: var(--dark-blue); */
   background-image: url(../../assets/png/header-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 20rem;
   display: flex;
