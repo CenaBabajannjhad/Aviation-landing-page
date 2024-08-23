@@ -234,6 +234,174 @@ header .main-header p {
   color: var(--blue-white);
 }
 
+/* -------------NEGIN ------------------ best-travelars*/
+
+.b-travel {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: #333333;
+  text-align: center;
+}
+
+.traveler-card {
+  display: inline-block;
+  width: 250px;
+  height: 400px;
+  margin: 0 1%;
+  background-color: #ffffff;
+  border-radius: 200px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  position: relative;
+}
+
+.traveler-card:hover {
+  transform: translateY(-10px);
+}
+
+.location-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.traveler-info {
+  padding: 15px;
+  text-align: center;
+  position: relative;
+}
+
+.profile-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 3px solid white;
+}
+
+.traveler-info h3 {
+  font-size: 18px;
+  margin-top: 40px;
+  color: #333333;
+}
+
+.traveler-info p {
+  font-size: 14px;
+  color: #777777;
+  margin: 0;
+}
+
+/* -------------NEGIN ------------------ best-travelars*/
+
+/* -------------NEGIN ------------------ customer-feedback*/
+
+.our-customer-feedback-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.our-customer-feedback-section > p {
+  font-size: 1.2rem;
+  color: #6c63ff;
+  margin-bottom: 5px;
+}
+
+.our-customer-feedback-section > h2 {
+  font-size: 2rem;
+  color: #333333;
+  margin-bottom: 30px;
+}
+
+.feedback-img {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.group-customer-img {
+  width: 50rem;
+  height: 25rem;
+}
+
+.feedback-msg-box {
+  margin-bottom: 15px;
+
+  background-color: #ffffff;
+  padding: 20px 20px 10px 10px;
+  border-radius: 1rem;
+  width: 25rem;
+  height: 15rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.feedback-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.customer-avatar {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.feedback-header h4 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #333333;
+}
+
+.stars span {
+  color: #ffc107;
+  font-size: 1rem;
+}
+
+.feedback-text {
+  font-size: 0.95rem;
+  color: #555555;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: #cbc8fa;
+  color: #000;
+  font-size: 1.2rem;
+  line-height: 30px;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.navigation span:hover {
+  background: #3a377a;
+  color: var(--white);
+}
+
+/* -------------NEGIN ------------------ customer-feedback*/
+
 /* make-memories-with-us-section => mary */
 .images-box {
   display: flex;
@@ -270,6 +438,7 @@ header .main-header p {
   border-bottom-left-radius: 10rem;
   border-bottom-right-radius: 10rem;
 }
+
 /* -------------SHIVA ------------------ Let's Fly */
 
 .Lets-fly-section {
