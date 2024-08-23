@@ -335,13 +335,14 @@ h2 {
 }
 
 .feedback-msg-box {
+  margin-top: 3rem;
   margin-bottom: 15px;
-
+  margin-left: 2rem;
   background-color: #ffffff;
-  padding: 20px 20px 10px 10px;
+  padding: 20px 20px 15px 15px;
   border-radius: 1rem;
-  width: 25rem;
-  height: 15rem;
+  width: 28rem;
+  height: 18rem;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   text-align: left;
 }
@@ -384,12 +385,12 @@ h2 {
 
 .navigation span {
   display: inline-block;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   background: #cbc8fa;
   color: #000;
-  font-size: 1.2rem;
-  line-height: 30px;
+  font-size: 1rem;
+  line-height: 40px;
   border-radius: 50%;
   margin: 0 5px;
   cursor: pointer;
