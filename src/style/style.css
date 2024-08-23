@@ -209,6 +209,30 @@ header .main-header p {
 .box-margin {
   margin-top: 1rem;
 }
+/* book-tickets-section => hossein*/
+.book-tickets-section {
+  height: 75vh;
+  background-color: #010123;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Montserrat-Regular";
+}
+.book-ticket-left {
+  width: 25%;
+  color: var(--white);
+  margin-top: 5rem;
+}
+.book-ticket-left-title {
+  font-family: "Montserrat-Bold";
+  font-size: 2.5rem;
+  margin-bottom: 1.2rem;
+}
+.book-ticket-img {
+  width: 70%;
+}
+.book-ticket-left-description {
+  color: var(--blue-white);
+}
 
 /* make-memories-with-us-section => mary */
 .images-box {
@@ -333,7 +357,6 @@ header .main-header p {
   margin-top: 3rem;
 }
 /* ------------ end Let's Fly ---------- */
-
 
 @media screen and (max-width: 1536px) {
   .container {
